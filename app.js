@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 
 /* variable de ambiente para el hosting */
-const port = process.env.port || 9000;
+const port = process.env.PORT || 9000;
 
 /* rutas de la api */
 const mascotaRoute = require("./router/mascotas");
