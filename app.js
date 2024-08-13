@@ -11,6 +11,7 @@ const port = process.env.port || 9000;
 const mascotaRoute = require("./router/mascotas");
 
 /* middleware api */
+app.use(express.json());
 app.use("/api", mascotaRoute);
 
 /* route basica */
