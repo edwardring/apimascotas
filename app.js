@@ -16,7 +16,7 @@ app.use("/api", mascotaRoute);
 
 /* route basica */
 app.get("/", (req, res) => {
-    res.send("Bienvenido a nuestra API con Node");
+    res.send("Bienvenido a nuestra API de Mascotas con Node.Js");
 })
 
 /* conexion a la base de datos mongodb */
